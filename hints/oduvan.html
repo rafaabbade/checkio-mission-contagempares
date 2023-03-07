@@ -2,43 +2,82 @@
 <div class="question-answer">
     <div class="question">
         <p>
-            Qual pode ser o primeiro passo para resolver esse problema?
+            Não faço ideia de como resolver este problema.
         </p>
     </div>
     <div class="answer">
         <p>
-            Primeiro devemos entender o que está no nosso compilador. Veja a imagem abaixo:
+           Este problema é muito parecido com o anterior. Se quiser, abra outra abas e aproveite o código.
         </p>
+        <p>
+            Abaixo você encontra as mesmas dicas da atividade anterior
+        </p>
+        <p>
+            Vamos dividir em partes. Primeiramente, vamos aprender a criar uma lista. Não se preocupe com detalhes, pois ainda vamos praticar muito o uso das listas.    
+        </p>
+        <p>
+            Criar uma lista vazia é muito parecido com criar uma variável, basta escolher um nome e atribuir colchetes vazios a ela:
+        </p>
+        <pre class="brush: python">
+lista = [] # cria uma lista vazia
+        </pre>
      </div>
 </div>
 <div class="question-answer">
     <div class="question">
         <p>
-            Ok, mas onde eu devo programar?
+            Legal, agora tenho uma lista vazia. Como posso adicionar os números?
         </p>
     </div>
     <div class="answer">
         <p>
-            Escreva seu comentário no comentário logo embaixo da definição da função soma
+            Para adicionar números à lista, utilizamos o comando .append(). O comando é usado conforme indicado abaixo:
         </p>
-          
+          <pre class="brush: python">
+lista = [] # cria uma lista vazia
+lista.append(1) # o nome da lista sempre vem antes do .append() e o que iremos adicionar a lista vem sempre entre parênteses.
+        </pre>
+        <p>
+            O comando .append() adiciona um elemento no final da lista.
+        </p>                   
      </div>
 </div>
 <div class="question-answer">
     <div class="question">
         <p>
-            Posso criar uma variável para me ajudar?
+            E o restante dos números?
         </p>
     </div>
     <div class="answer">
         <p>
-            Sim, uma das formas de resolver é atribuir/armazenar o valor da operação a+b numa variável nova.
-        </p>
-        
+            Agora vamos aprender um novo laço de repetição: o while, ou enquanto.
+        </p>              
         <p>
-            Só não se esqueça de retornar o valor desta variável!
+            O laço while é uma estrutura de repetição em Python que executa repetidamente um bloco de código enquanto uma determinada condição é verdadeira. A condição é verificada antes de cada execução do bloco de código. Se a condição for verdadeira, o bloco de código é executado. Se a condição for falsa, a execução do laço é interrompida.
         </p>
-          
+        <p>
+            Para visualizar um exemplo, assista <a href="https://www.youtube.com/watch?v=jSs58VZVLw8" target="_blank" >a este vídeo.</a>          
      </div>
 </div>
+<div class="question-answer">
+    <div class="question">
+        <p>
+            Foi um bom exemplo, mas ainda estou com dúvidas sobre como escrever o código.
+        </p>
+    </div>
+    <div class="answer">
+        <p>
+            O while tem o funcionamento indicado abaixo. Faça alguns testes para verificar.
+        </p>
+          <pre class="brush: python">
+i = 1 # usaremos a variável i como contador
+while i <= n: # enquanto i é menor do que n, o código abaixo será executado
+  print(i) # aqui estamos imprimindo um valor, mas devemos adicioná-lo à lista. Ainda bem que você já sabe fazer isso :)  
+  i += 1 # somamos 1 ao i, para que o código não seja executado para sempre
+        </pre>
+        <p>
+            Não se esqueça de retornar a lista!
+        </p>                   
+     </div>
+</div>    
 </body>
