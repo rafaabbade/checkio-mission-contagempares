@@ -1,16 +1,16 @@
 <!-- Describe task in general -->
 
 <p>
-    Crie uma função que receba dois números inteiros como parâmetros e retorne a soma desses números.
+    Crie uma função que recebe um número inteiro como entrada e retorna uma lista contendo todos os números pares entre 2 e o número de entrada (inclusive), em ordem crescente.
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros a e b.
+    <strong>Entrada: </strong> Um número inteiro n.
 </p>
 
 <p>
-    <strong>Saída: </strong> Um número inteiro, que é a soma de a e b. 
+    <strong>Saída: </strong>  • Uma lista contendo todos os números pares entre 2 e n (inclusive), em ordem crescente. Se n for menor que 2, a lista deve estar vazia.
 </p>
 
 
@@ -25,9 +25,10 @@
 countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
-<pre class="brush: python">soma(2,3) == 5
-soma(-1,5) == 4
-soma(0,0) == 0
+<pre class="brush: python">
+pares_crescentes(7) == [2, 4, 6] 
+pares_crescentes(10) == [2, 4, 6, 8, 10] 
+pares_crescentes(1) == []
 </pre>
 {% endif %}
 </div>
